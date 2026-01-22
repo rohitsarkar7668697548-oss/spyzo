@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spyzo Spices | Pure, Fresh & Authentic Spices from Uttarakhand</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            background-color: #128c7e;
+        }
+    </style>
+</head>
+<body class="bg-orange-50 text-gray-800">
+
+    <!-- Header / Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex flex-col">
+                <span class="text-2xl font-bold text-red-700 tracking-wider">SPYZO SPICES</span>
+                <span class="text-xs text-gray-500 uppercase tracking-widest">Pure • Fresh • Authentic</span>
+            </div>
+            <nav class="hidden md:flex space-x-6 font-medium">
+                <a href="#home" class="hover:text-red-700 transition">Home</a>
+                <a href="#products" class="hover:text-red-700 transition">Products</a>
+                <a href="#why-us" class="hover:text-red-700 transition">Why Us</a>
+                <a href="#about" class="hover:text-red-700 transition">About</a>
+                <a href="#contact" class="hover:text-red-700 transition">Contact</a>
+            </nav>
+            <a href="https://wa.me/917055088635" target="_blank" class="bg-green-600 text-white px-4 py-2 rounded-full font-semibold hover:bg-green-700 transition flex items-center gap-2 text-sm">
+                <i class="fab fa-whatsapp"></i> Order Now
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative py-20 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');">
+        <div class="container mx-auto px-4 text-center text-white">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">Fresh & Pure Spices From Uttarakhand</h1>
+            <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto">Bringing authentic taste and rich aroma straight from our grinding unit to your kitchen.</p>
+            
+            <div class="flex flex-wrap justify-center gap-6 mb-10">
+                <div class="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-lg">
+                    <span class="text-green-400">🟢</span> 100% Natural Spices
+                </div>
+                <div class="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-lg">
+                    <span class="text-green-400">🟢</span> No Artificial Colour
+                </div>
+                <div class="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-lg">
+                    <span class="text-green-400">🟢</span> Hygienically Processed
+                </div>
+            </div>
+
+            <a href="https://wa.me/917055088635" target="_blank" class="inline-flex items-center gap-3 bg-green-600 text-white px-8 py-4 rounded-full text-xl font-bold hover:bg-green-700 transition-all transform hover:scale-105 shadow-xl">
+                <i class="fab fa-whatsapp text-2xl"></i> Order on WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-red-800">🌶️ Our Products</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                <!-- Red Chilli -->
+                <div class="bg-orange-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition group">
+                    <div class="h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Red Chilli Powder" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="text-2xl font-bold mb-2">Red Chilli Powder</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Finely ground from premium hand-picked dried chillies.</p>
+                        <a href="https://wa.me/917055088635?text=Hi, I want to order Red Chilli Powder" target="_blank" class="inline-block text-red-700 font-bold border-2 border-red-700 px-6 py-2 rounded-full hover:bg-red-700 hover:text-white transition">Order Now</a>
+                    </div>
+                </div>
+
+                <!-- Turmeric -->
+                <div class="bg-orange-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition group">
+                    <div class="h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1615485290382-441e4d019cb5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Turmeric Powder" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="text-2xl font-bold mb-2">Turmeric Powder</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Pure turmeric with high curcumin content for health & taste.</p>
+                        <a href="https://wa.me/917055088635?text=Hi, I want to order Turmeric Powder" target="_blank" class="inline-block text-red-700 font-bold border-2 border-red-700 px-6 py-2 rounded-full hover:bg-red-700 hover:text-white transition">Order Now</a>
+                    </div>
+                </div>
+
+                <!-- Coriander -->
+                <div class="bg-orange-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition group">
+                    <div class="h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1599940824399-b87987ceb72a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Coriander Powder" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="text-2xl font-bold mb-2">Coriander Powder</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Aromatic coriander seeds ground to perfection.</p>
+                        <a href="https://wa.me/917055088635?text=Hi, I want to order Coriander Powder" target="_blank" class="inline-block text-red-700 font-bold border-2 border-red-700 px-6 py-2 rounded-full hover:bg-red-700 hover:text-white transition">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-red-50 p-8 rounded-2xl text-center border-2 border-dashed border-red-200">
+                <h3 class="text-xl font-bold mb-2 italic">🛒 Available in Retail & Bulk Quantity</h3>
+                <p class="text-gray-600">Special prices for restaurants, caterers, and bulk buyers.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-us" class="py-20 bg-orange-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-red-800">⭐ Why Choose Spyzo Spices?</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 text-center">
+                <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
+                    <div class="text-orange-500 text-3xl mb-4">✔</div>
+                    <h4 class="font-bold mb-2">Premium quality raw spices</h4>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
+                    <div class="text-orange-500 text-3xl mb-4">✔</div>
+                    <h4 class="font-bold mb-2">Traditional grinding for aroma</h4>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
+                    <div class="text-orange-500 text-3xl mb-4">✔</div>
+                    <h4 class="font-bold mb-2">Freshly packed</h4>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
+                    <div class="text-orange-500 text-3xl mb-4">✔</div>
+                    <h4 class="font-bold mb-2">Affordable prices</h4>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
+                    <div class="text-orange-500 text-3xl mb-4">✔</div>
+                    <h4 class="font-bold mb-2">Trusted local brand</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Order -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-red-800">📦 How to Order</h2>
+            
+            <div class="flex flex-col md:flex-row justify-center items-stretch gap-8 max-w-5xl mx-auto">
+                <div class="flex-1 bg-red-700 text-white p-8 rounded-2xl text-center">
+                    <div class="text-4xl font-bold mb-4 opacity-50">1</div>
+                    <h4 class="text-xl font-bold mb-2">Choose your spice</h4>
+                    <p class="text-red-100">Pick from our premium selection</p>
+                </div>
+                <div class="flex-1 bg-red-700 text-white p-8 rounded-2xl text-center">
+                    <div class="text-4xl font-bold mb-4 opacity-50">2</div>
+                    <h4 class="text-xl font-bold mb-2">Send details on WhatsApp</h4>
+                    <p class="text-red-100">Message us your choice</p>
+                </div>
+                <div class="flex-1 bg-red-700 text-white p-8 rounded-2xl text-center">
+                    <div class="text-4xl font-bold mb-4 opacity-50">3</div>
+                    <h4 class="text-xl font-bold mb-2">Confirm quantity & address</h4>
+                    <p class="text-red-100">Finalize the order details</p>
+                </div>
+                <div class="flex-1 bg-red-700 text-white p-8 rounded-2xl text-center">
+                    <div class="text-4xl font-bold mb-4 opacity-50">4</div>
+                    <h4 class="text-xl font-bold mb-2">Get fast delivery</h4>
+                    <p class="text-red-100">Fresh spices at your doorstep</p>
+                </div>
+            </div>
+
+            <div class="mt-12 text-center">
+                <p class="text-2xl font-semibold text-green-700 mb-6 italic">📲 WhatsApp Order Only – Simple & Quick</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="py-20 bg-orange-50">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2">
+                <img src="https://images.unsplash.com/photo-1532336414038-cf19250c5757?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="About Spyzo Spices" class="rounded-3xl shadow-2xl">
+            </div>
+            <div class="md:w-1/2">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-red-800">📍 About Us</h2>
+                <p class="text-lg leading-relaxed mb-6 text-gray-700">
+                    Spyzo Spices is a trusted spice brand based in <strong>Shaktifarm, Udham Singh Nagar, Uttarakhand</strong>.
+                </p>
+                <p class="text-lg leading-relaxed text-gray-700">
+                    We are committed to delivering pure, fresh, and high-quality spices using traditional grinding methods and modern hygiene standards. Our goal is to bring the authentic flavor of spices back to every home.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <footer id="contact" class="bg-gray-900 text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12">📞 Contact Us</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
+                <div>
+                    <i class="fas fa-map-marker-alt text-3xl text-orange-500 mb-4"></i>
+                    <h4 class="text-xl font-bold mb-2">Location</h4>
+                    <p class="text-gray-400">Shaktifarm, Udham Singh Nagar,<br>Uttarakhand</p>
+                </div>
+                <div>
+                    <i class="fas fa-phone-alt text-3xl text-orange-500 mb-4"></i>
+                    <h4 class="text-xl font-bold mb-2">Call / WhatsApp</h4>
+                    <p class="text-gray-400">7055088635</p>
+                </div>
+                <div>
+                    <i class="fas fa-envelope text-3xl text-orange-500 mb-4"></i>
+                    <h4 class="text-xl font-bold mb-2">Email</h4>
+                    <p class="text-gray-400">spyzospices@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-12">
+                <h3 class="text-2xl font-bold text-red-500 tracking-wider mb-6 uppercase">SPYZO SPICES</h3>
+                <a href="https://wa.me/917055088635" target="_blank" class="inline-flex items-center gap-3 bg-green-600 text-white px-8 py-4 rounded-full text-lg font-bold hover:bg-green-700 transition shadow-lg">
+                    <i class="fab fa-whatsapp"></i> Order Now on WhatsApp
+                </a>
+            </div>
+            
+            <p class="mt-12 text-sm text-gray-500">© 2024 Spyzo Spices. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/917055088635" class="whatsapp-float" target="_blank" title="Order on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
